@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>textPass</title>
+
+<div class="container">
+    <input type="password" class="password" placeholder="Enter your Password" oninput="textChange()" required>
+    <i class="fa fa-eye"  id="show_hide" onclick="showHide()"></i>
+    <p id="capital">
+        <i class="fa fa-times"></i>
+        <i class="fa fa-check"></i>
+        <span>Capital letters</span>
+    </p>
+
+    <p id="char">
+        <i class="fa fa-times"></i>
+        <i class="fa fa-check"></i>
+        <span>Special characters</span>
+    </p>
+
+    <p id="num">
+        <i class="fa fa-times"></i>
+        <i class="fa fa-check"></i>
+        <span>Using numbers</span>
+    </p>
+
+    <p id="more8">
+        <i class="fa fa-times"></i>
+        <i class="fa fa-check"></i>
+        <span>8+ characters</span>
+    </p>
+
+</div>
+<script type="text/javascript" src="script.js"></script>
