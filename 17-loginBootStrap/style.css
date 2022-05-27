@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Roboto:wght@100;400;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-color: #fbda61;
+  background-image: linear-gradient(
+    45deg,
+    #fbda61 0%,
+    #ff5acd 53%,
+    #ffffff 91%
+  );
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 1420px;
+}
+a {
+  color: #4895f9;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  /* margin: 15px 0; */
+  font-weight: 500;
+}
+h5 {
+  /* margin-top: 0; */
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+input {
+  line-height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f8f8f8;
+  outline: none;
+  font-size: 18px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+input:not(.inline-block) {
+  display: block;
+  width: 100%;
+}
+input:focus {
+  box-shadow: 0px 1px 7px #00000059;
+  background-color: white;
+}
+input.inline-block {
+  width: 49%;
+}
+input#firstName {
+  border-radius: 20px 0 0 20px;
+}
+input#lastName {
+  border-radius: 0 20px 20px 0;
+}
+
+input[type="submit"] {
+  background-color: #4895f9;
+  color: white;
+}
+::placeholder {
+  color: #cecccc;
+}

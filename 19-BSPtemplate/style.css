@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid {
+  padding: 0;
+}
+main {
+  margin: 0 auto;
+  width: 90% !important;
+}
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+}
+a:hover {
+  background-color: #ccc;
+  padding: 5px 10px;
+  color: black;
+}
+h3 {
+  padding-bottom: 23px;
+}
+h4 {
+  margin: 0;
+}
+header {
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0px 1px 14px 0px #adadad99;
+  height: 53px;
+  position: fixed;
+  z-index: 1;
+}
+.logo {
+  letter-spacing: 3px;
+}
+.logo b {
+  padding-right: 10px;
+}
+nav ul {
+  float: right;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  letter-spacing: 4px;
+  font-size: 18px;
+  float: right;
+}
+.image-section {
+  margin-bottom: 75px;
+}
+.image-section img {
+  width: 100%;
+}
+.image-section .setcenter {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.image-section .centered p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+.image-section .centered b {
+
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.9);
+  margin-right: 5px;
+  opacity: 0.8;
+}
+section#Project {
+  margin-bottom: 83px;
+}
+
+.imageProject .box {
+  position: relative;
+}
+.imageProject img {
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 8px;
+  max-width: 363px;
+  height: 242px;
+}
+.imageProject .box p {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+section#About {
+  margin-bottom: 98px;
+}
+section#About p {
+  text-align: justify;
+  padding: 10px 0 25px;
+}
+section#About .contactCard .card {
+  border: none;
+}
+section#About .contactCard .card img {
+  width: 100%;
+  filter: grayscale(59%);
+}
+section#About .contactCard .card-body {
+  padding: 7px;
+}
+section#About .contactCard h6 {
+  padding: 9px 0;
+  margin: 0;
+}
+section#About .contactCard p {
+  font-size: 15px;
+  text-align: left;
+}
+section#About .contactCard button:hover {
+  background: #ccc;
+}
+section#Contact {
+}
+section#Contact input {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #ccc;
+}
+section#Contact button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin: 15px 0;
+}
+section#Contact button:hover {
+  background: #ccc;
+}
+
+section#footer .lastimage img {
+  width: 100%;
+}
+.Powered {
+  background: black;
+}
+.Powered a {
+  color: white;
+  text-decoration: underline;
+  padding: 0;
+}
+.Powered a:hover {
+  color: #adadad99;
+  background: none;
+}
+.Powered p {
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}

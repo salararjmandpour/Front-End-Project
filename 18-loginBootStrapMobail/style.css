@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Roboto:wght@300;500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  width: 1420;
+}
+.container {
+  max-width: 1420px;
+  margin: 0;
+  padding: 0;
+}
+
+.left-side {
+  padding: 5px 50px;
+}
+
+.logo img {
+  width: 156px;
+  height: 120px;
+}
+.heading h1 {
+  font-size: 35px;
+  font-weight: 500;
+  padding-bottom: 17px;
+}
+.heading h5 {
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(178, 178, 179);
+}
+.heading a {
+  color: #01bab4;
+  text-decoration: none;
+  border-bottom: 1px solid #01bab4;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.doted {
+  text-align: center;
+}
+.doted .active,
+.doted .unactive {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #778999;
+  border-radius: 50%;
+  margin: 20px 5px;
+}
+.doted .unactive {
+  background-color: #eaeaea;
+}
+.firstLast input.inline-block {
+  width: 200px;
+}
+
+label {
+  font-size: 15px;
+  color: #3d3d3d;
+  display: block;
+}
+label span {
+  position: relative;
+  color: #01bab4;
+  left: 0px;
+}
+input,
+.bordercheckbox,
+button {
+  padding: 12px 20px 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  outline: none;
+}
+input:focus {
+  background-color: #dbf5f4;
+  outline: none;
+  border: 1px solid #01bab4;
+}
+
+.birthday input {
+  width: 100%;
+}
+.Gender span > span {
+  position: relative;
+  color: #01bab4;
+  left: 0px;
+}
+.Gender .female {
+  margin-left: 23px;
+  color: black;
+}
+.Gender .male {
+  margin-left: 23px;
+  color: black;
+}
+.Gender .bordercheckbox {
+  width: 50%;
+  padding: 20px 40px 20px 5px;
+}
+.Gender label {
+  vertical-align: middle;
+}
+.Gender input {
+  display: none;
+}
+.Gender label {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.Gender label::after {
+  display: none;
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  left: 3px;
+  top: 3px;
+  padding: 4px;
+  border: 1px solid black;
+  transition: all 0.3s;
+}
+.Gender label::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  left: 0px;
+  top: 0px;
+  padding: 4px;
+  border: 2px solid #eaeaea;
+  transition: all 0.3s;
+}
+#checkbox:checked + label::before {
+  display: none;
+  background-color: #01bab4;
+  border: 2px solid #01bab4;
+}
+#checkbox:checked + label::after {
+  display: block;
+  background-color: #01bab4;
+  border: 2px solid #01bab4;
+}
+#checkbox:checked + label {
+  background-color: #ffffff;
+  border: 1px solid #01bab4;
+}
+.Skype input,
+.Promo input {
+  width: 100%;
+}
+button {
+  background-color: #01bab4;
+  color: white;
+  width: 100%;
+  border: 1px solid #01bab4;
+  font-weight: 100;
+  padding: 12px;
+}
+button i {
+  padding: 0 10px;
+}
+.right-side {
+  background-color: #dbf5f4;
+}
+.right-side > div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-side h3 {
+  padding: 10px 0;
+}
+::placeholder {
+  color: #c5c5c5;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.CountryCity button {
+  border: 1px solid #eaeaea;
+  color: #c5c5c5;
+}
+.birthday i {
+  padding: 0 5px;
+  font-size: 12px;
+}
+.Password label i{
+  padding: 0 5px; font-size: 13px;
+}
+.term a{
+  color:#01bab4
+}
+.term p{
+text-align: center; font-size: 13px; color: #cecdcd; font-weight: 100;
+}
+
